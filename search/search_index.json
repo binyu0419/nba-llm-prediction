@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"LLM-based NBA Game Forecasting","text":"<p>This website presents our project on probabilistic NBA game forecasting using large language models and prediction markets.</p>"}]}
