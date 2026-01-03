@@ -1,0 +1,47 @@
+site_name: LLM-based NBA Game Forecasting
+site_description: Probabilistic forecasting and prediction-market trading using LLMs
+site_author: Your Team Name
+repo_url: https://github.com/yourname/nba-llm-forecasting
+repo_name: nba-llm-forecasting
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - Method:
+      - Problem Setup: method.md
+      - Forecasting Model: method.md
+  - Experiments:
+      - Evaluation Metrics: evaluation.md
+      - Results: experiments.md
+  - Trading:
+      - Market Design: trading.md
+      - Kelly Strategy: trading.md
+  - Team: team.md
+  - References: references.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - fenced_code
+  - codehilite
+  - pymdownx.arithmatex:
+      generic: true
+
+plugins:
+  - search
