@@ -1,7 +1,7 @@
 site_name: LLM-based NBA Game Forecasting
 site_description: Probabilistic forecasting and prediction-market trading using LLMs
 site_author: Your Team Name
-repo_url: https://github.com/yourname/nba-llm-forecasting
+repo_url: https://github.com/binyu0419/nba-llm-forecasting
 repo_name: nba-llm-forecasting
 
 theme:
